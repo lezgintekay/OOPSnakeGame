@@ -15,7 +15,7 @@ class Yilan:
         self.reset()
 
     def reset(self):
-        x = y = self.kenar_sayisi / 2 * self.kenar  # sol üst noktası ekranın ortasında olsun.
+        x = y = self.kenar_sayisi / 2 * self.kenar  
         self.hucreler = [pygame.Rect(x, y, self.kenar, self.kenar)]
 
     def cizdir(self, ekran):
